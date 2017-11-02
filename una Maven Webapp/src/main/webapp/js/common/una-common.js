@@ -13,7 +13,7 @@ UNA.common.MEDIA_TYPE_ICON = {
 };
 
 UNA.common.render = function () {
-    $.getJSON("/Uuwatch_Template/json/data.json", function (result) {
+    $.getJSON("/una/json/data.json", function (result) {
         $('#container').handlebars($('#tpl'), result.data);
         UNA.common.domBindData(result.data.data);
     });

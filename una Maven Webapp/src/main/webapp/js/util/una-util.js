@@ -181,7 +181,7 @@ UNA.util.flash = {
         params.push('height');
         params.push('272');
         params.push('src');
-        params.push('/Uuwatch_Template/plugin/f');
+        params.push('/una/plugin/f');
         params.push('quality');
         params.push('high');
         params.push('align');
@@ -205,7 +205,7 @@ UNA.util.flash = {
         params.push('allowScriptAccess');
         params.push('always');
         params.push('movie');
-        params.push('/Uuwatch_Template/plugin/f');
+        params.push('/una/plugin/f');
         params.push('salign');
         params.push('');
         params.push('codebase');

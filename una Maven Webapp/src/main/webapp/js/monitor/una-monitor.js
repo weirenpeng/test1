@@ -1,0 +1,3 @@
+$(function () {
+    UNA.common.render();
+});

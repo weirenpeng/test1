@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.news {
+    width: 100%;
+    min-height: 30px;
+    height: auto;
+    padding: 0;
+}
+
+.news-header {
+    float: left;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    margin: 5px 0px;
+    padding: 0;
+}
+
+.news-header .checkbox {
+    width: 3%;
+}
+
+.news-header .media {
+}
+
+.news-header .title {
+    width: 42%;
+    color: #004276;
+    font-weight: bold;
+}
+
+.news-header .time {
+    width: 20%;
+}
+
+.news-header .board {
+    width: 15%;
+}
+
+.news-header .from {
+    width: 15%;
+}
+
+.text-over {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.news-content {
+}
+
+.news-footer {
+
+}
+
+.news-keywords {
+}
+
+.news-keywords .emotion {
+}
+
+.news-option {
+}
+
+.news-option .code {
+}
+
+.news-option .operation {
+    float: right;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.right {
+    text-align: right;
+}
+
+.icons_bg {
+    background: url(../images/allicons.png) no-repeat;
+}
+
+.operation > a {
+    margin-left: 10px;
+}
+
+.tv, .paper, .web, .weibo, .bbs, .blog, .app, .radio {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 3px
+}
+
+.c_btn_report, .c_btn_tag, .c_btn_link, .c_btn_cache, .c_btn_eval, .c_btn_remove, .c_btn_sort, .c_btn_restore, .c_btn_alert, .c_btn_event, .c_btn_merge {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.c_btn_report {
+    width: 15px;
+    height: 16px;
+    background-position: 0 -54px;
+}
+
+.c_btn_tag {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -75px;
+}
+
+.c_btn_link {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -96px;
+}
+
+.c_btn_share {
+    height: 16px;
+    width: 16px;
+    background-position: -19px -74px;
+}
+
+.c_btn_upload_error {
+    height: 18px;
+    width: 20px;
+    background-size: 16px 16px;
+    margin-right: -3px;
+}
+
+.c_btn_cache {
+    width: 16px;
+    height: 13px;
+    background-position: 0 -117px
+}
+
+.c_btn_eval {
+    width: 18px;
+    height: 18px;
+    background-position: 0 -133px;
+}
+
+.c_btn_sort {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -156px;
+}
+
+.c_btn_remove {
+    width: 15px;
+    height: 18px;
+    background-position: 0 -176px;
+}
+
+.c_btn_alert {
+    width: 16px;
+    height: 16px;
+    background-position: -50px -817px;
+}
+
+.c_btn_event {
+    width: 16px;
+    height: 16px;
+    background-position: 0 -701px;
+}
+
+.c_btn_merge {
+    width: 16px;
+    height: 16px;
+    background-position: -2px -848px;
+}
+
+.c_btn_web {
+    width: 16px;
+    height: 22px;
+    background-position: -8px -1463px;
+}
+
+.weixin {
+    width: 19px;
+    height: 18px;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.tv {
+    background-position: 0 -334px;
+}
+
+.paper {
+    background-position: 0 -355px;
+}
+
+.web {
+    background-position: 0 -376px;
+}
+
+.weibo {
+    background-position: 0 -397px;
+}
+
+.bbs {
+    background-position: 0 -418px;
+}
+
+.blog {
+    background-position: -1px -1556px;
+}
+
+.weixin {
+    background-position: -19px -333px
+}
+
+.app {
+    background-position: -17px -355px
+}
+
+.radio {
+}
+
+.fr {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.news-emotion {
+    font-size: 13px;
+    cursor: pointer;
+    color: #656565;
+    text-decoration: none;
+}
+
+.news-player {
+    float: left;
+    padding: 5px 15px 0 0;
+}
+
+.play-btn {
+    margin-top: 5px;
+}
+
+.play {
+    float: left;
+    height: 13px;
+    line-height: 13px;
+    background-position: 0 -199px;
+    padding-left: 16px;
+    font-size: 14px;
+}
+
+.download {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    background-position: -56px -34px;
+    margin-left: 30px;
+    padding-left: 16px;
+    font-size: 14px;
+}
+
+.title:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+.news-player-summary-content {
+}
+
+.news-summary-content {
+}
+
+.news-body {
+    width: 100%;
+    height: auto;
+    float: left;
+}
